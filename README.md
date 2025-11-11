@@ -1,4 +1,4 @@
-# 🧪 Projeto de Testes Manuais – Demoblaze
+# 💻 Projeto de Testes Manuais – Demoblaze
 
 Este repositório contém uma bateria de **testes manuais** aplicados ao site público [Demoblaze](https://www.demoblaze.com/), que simula uma loja virtual com funcionalidades como login, carrinho de compras e navegação por categorias.
 
