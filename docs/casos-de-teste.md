@@ -119,7 +119,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 - **Resultado Obtido:** Mensagem enviada com sucesso: "Thanks for the message!!"
 - **Status:** Aprovado
 
-## 🔹 Teste de Usabilidade
+## 🔹 Testes de Usabilidade
 
 ### TC011 – Testar em dispositivo mobile
 - **Pré-condições:** Acesso ao site
@@ -127,10 +127,20 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
   1. Acessar o site em tela reduzida ou em um dispositivo mobile
   2. Navegar pelo site
 - **Resultado Esperado:** Layout e funcionalidades adaptadas
-- **Resultado Obtido:** Layout e funcionalidades não adaptados
--   **Observação:** Botão de cadastro cortado da tela, espaçamentos e layout quebrados, indicando possível bug no front-end (responsividade).
-  - ![Layout não responsível](../images/tc011-mobile-erro.png)
-- **Status:** Reprovado
+- **Resultado Obtido:** Layout e funcionalidades foram adaptados
+- **Status:** Aprovado
+
+### TC012 – Testar tempo de resposta do site
+- **Pré-condições:** Acesso ao site
+- **Passos:**
+  1. Acessar a página inicial
+  2. Navegar entre categorias e produtos
+  3. Realizar ações como login, cadastro e compra
+- **Resultado Esperado:** Resposta rápida (até 2 segundos por ação)
+- **Resultado Obtido:** Resposta lenta em alguns momentos (5–10 segundos), mas não constante
+- **Observações:** Lentidão perceptível, porém variável conforme o momento de acesso
+- **Status:** ⚠️ Observação
+
 
 ## 📊 Resumo dos Casos de Teste
 
@@ -146,7 +156,8 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 | TC008  | Finalizar compra com campos vazios      | Validação de Campo | ✅ Aprovado  |
 | TC009  | Navegação livre pelo site               | Exploratórios      | ✅ Aprovado  |
 | TC010  | Fluxo de contato                        | Exploratórios      | ✅ Aprovado  |
-| TC011  | Testar em dispositivo mobile            | Usabilidade        | ❌ Reprovado |
+| TC011  | Testar em dispositivo mobile            | Usabilidade        | ✅ Aprovado  |
+| TC012  | Testar tempo de resposta do site        | Usabilidade        | ⚠️ Observação|
 
 | TC007  | Finalizar cadastro com campos vazios      | Validação de Campo | Aprovado  |
 | TC008  | Finalizar compra com campos vazios        | Validação de Campo | Aprovado  |
