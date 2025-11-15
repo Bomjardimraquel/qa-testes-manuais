@@ -1,4 +1,4 @@
-# 🧪 Casos de Teste – Projeto Demoblaze
+# 💻 Casos de Teste – Projeto Demoblaze
 
 Este documento reúne todos os casos de teste manuais aplicados ao site [Demoblaze](https://www.demoblaze.com/), organizados por tipo de teste.
 
@@ -97,26 +97,56 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 
 ---
 
-## 🔹 Testes de Compatibilidade
+## 🔹 Testes Exploratórios
 
-### TC005 – Acesso ao site em navegadores diferentes
+### TC009 – Navegação livre pelo site
 - **Pré-condições:** Site disponível
 - **Passos:**
-  1. Acessar o site no Chrome
-  2. Repetir no microsof edge
-- **Resultado Esperado:** Layout e funcionalidades consistentes
-- **Resultado Obtido:** 
-- **Status:** 
+  1. Acessar o site
+  2. Clicar em botões de navegação e de seleção
+  3. Abrir e fechar modais da barra superior de navegação
+- **Resultado Esperado:** Funcionalidades sem quebras e erros
+- **Resultado Obtido:** Todas as funcionalidades funcionaram corretamente
+- **Status:** Aprovado
+
+### TC010 – Testar Fluxo de contato
+- **Pré-condições:** Acessar o site
+- **Passos:**
+  1. Clicar em contact
+  2. Preencher campos de validação
+  3. Clicar em send message
+- **Resultado Esperado:** Mensagem enviada
+- **Resultado Obtido:** Mensagem enviada com sucesso: "Thanks for the message!!"
+- **Status:** Aprovado
+
+## 🔹 Teste de Usabilidade
+
+### TC011 – Testar em dispositivo mobile
+- **Pré-condições:** Acesso ao site
+- **Passos:**
+  1. Acessar o site em tela reduzida ou em um dispositivo mobile
+  2. Navegar pelo site
+- **Resultado Esperado:** Layout e funcionalidades adaptadas
+- **Resultado Obtido:** Layout e funcionalidades não adaptados
+-   **Observação:** Botão de cadastro cortado da tela, espaçamentos e layout quebrados, indicando possível bug no front-end (responsividade).
+  - ![Layout não responsível](../images/tc011-mobile-erro.png)
+- **Status:** Reprovado
 
 ## 📊 Resumo dos Casos de Teste
 
-| ID     | Descrição                                 | Tipo               | Status    |
-|--------|-------------------------------------------|--------------------|-----------|
-| TC001  | Realizar cadastro de usuário              | Funcional          | Reprovado |
-| TC002  | Adicionar produtos ao carrinho            | Funcional          | Aprovado  |
-| TC003  | Finalizar compra com dados válidos        | Funcional          | Aprovado  |
-| TC004  | Remover produto do carrinho               | Funcional          | Aprovado  |
-| TC005  | Testar botões da barra superior           | Funcional          | Aprovado  |
-| TC006  | Testar botões das categorias              | Funcional          | Aprovado  |
+| ID     | Descrição                               | Tipo               | Status     |
+|--------|-----------------------------------------|--------------------|------------|
+| TC001  | Realizar cadastro de usuário            | Funcional          | ❌ Reprovado |
+| TC002  | Adicionar produtos ao carrinho          | Funcional          | ✅ Aprovado  |
+| TC003  | Finalizar compra com dados válidos      | Funcional          | ✅ Aprovado  |
+| TC004  | Remover produto do carrinho             | Funcional          | ✅ Aprovado  |
+| TC005  | Testar botões da barra superior         | Funcional          | ✅ Aprovado  |
+| TC006  | Testar botões das categorias            | Funcional          | ✅ Aprovado  |
+| TC007  | Finalizar cadastro com campos vazios    | Validação de Campo | ✅ Aprovado  |
+| TC008  | Finalizar compra com campos vazios      | Validação de Campo | ✅ Aprovado  |
+| TC009  | Navegação livre pelo site               | Exploratórios      | ✅ Aprovado  |
+| TC010  | Fluxo de contato                        | Exploratórios      | ✅ Aprovado  |
+| TC011  | Testar em dispositivo mobile            | Usabilidade        | ❌ Reprovado |
+
 | TC007  | Finalizar cadastro com campos vazios      | Validação de Campo | Aprovado  |
 | TC008  | Finalizar compra com campos vazios        | Validação de Campo | Aprovado  |
