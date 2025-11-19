@@ -4,7 +4,7 @@ Este repositório contém uma bateria de **testes manuais** aplicados ao site p�
 
 ---
 
-## 🎯 Objetivo
+## ✔️ Objetivo
 
 Demonstrar habilidades práticas em **testes manuais**, com documentação clara e estruturada.
 
@@ -15,14 +15,13 @@ Demonstrar habilidades práticas em **testes manuais**, com documentação clara
 - **Funcional** – Verificação de funcionalidades como login, adicionar ao carrinho, navegação
 - **Validação de Campo** – Testes com campos obrigatórios e dados inválidos
 - **Exploratório** – Navegação livre para identificar falhas inesperadas
-- **Smoke** – Verificação rápida do fluxo principal de compra
-- **Compatibilidade (manual)** – Testes em diferentes navegadores
+- **Usabilidade** – Testes em diferentes dispositivos
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 
-- Navegador (Chrome, Firefox)
+- Navegador (Chrome, Microsoft Edge)
 - Markdown para documentação
 - GitHub para versionamento e portfólio
 
@@ -30,14 +29,15 @@ Demonstrar habilidades práticas em **testes manuais**, com documentação clara
 
 ## 📁 Estrutura do Repositório
 qa-testes-manuais-demoblaze/ 
-├── casos-de-teste.md 
+├── casos-de-teste.md
+├── images
 ├── relatorio-de-bugs.md
 └── README.md
 
 
 ---
 
-## 🚀 Como Executar os Testes
+## 💻 Como Executar os Testes
 
 1. Acesse [https://www.demoblaze.com/](https://www.demoblaze.com/)
 2. Siga os passos descritos em cada caso de teste no arquivo `casos-de-teste.md`
