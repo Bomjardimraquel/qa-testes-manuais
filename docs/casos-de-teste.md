@@ -16,7 +16,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 - **Resultado Esperado:** Usuário cadastrado
 - **Resultado Obtido:** Mensagem de erro: "This user already exist."
   - **Observação:** O sistema retorna "This user already exist." mesmo para usuários nunca cadastrados, indicando possível bug no backend.
-  - ![Erro de cadastro](../images/tc001-cadastro-erro.png)
+  - ![Erro de cadastro](../images/tc001-cadastro-erro.jpeg)
 - **Status:** Reprovado
 
 ### TC002 – Adicionar produtos ao carrinho
@@ -27,6 +27,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
   3. Clicar em "add to cart"
 - **Resultado Esperado:** Produto adicionado ao carrinho 
 - **Resultado Obtido:** Produto adicionado ao carrinho
+    ![Produto adicionado](../images/tc002-carrinho-sucesso.jpeg)
 - **Status:** Aprovado
 
 ### TC003 – Finalizar compra com dados válidos
@@ -41,6 +42,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
   7. Clicar em "purchase"
 - **Resultado Esperado:** Compra/pedido realizado(a)
 - **Resultado Obtido:** Compra realizada
+    ![Compra efetuada](../images/tc003-compra-sucesso.jpeg)
 - **Status:** Aprovado
 
 ### TC004 – Remover produto do carrinho
@@ -117,6 +119,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
   3. Clicar em send message
 - **Resultado Esperado:** Mensagem enviada
 - **Resultado Obtido:** Mensagem enviada com sucesso: "Thanks for the message!!"
+     ![Contato com sucesso](../images/tc010-contato-sucesso.jpeg)
 - **Status:** Aprovado
 
 ## 🔹 Testes de Usabilidade
@@ -158,6 +161,3 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 | TC010  | Fluxo de contato                        | Exploratórios      | ✅ Aprovado  |
 | TC011  | Testar em dispositivo mobile            | Usabilidade        | ✅ Aprovado  |
 | TC012  | Testar tempo de resposta do site        | Usabilidade        | ⚠️ Observação|
-
-| TC007  | Finalizar cadastro com campos vazios      | Validação de Campo | Aprovado  |
-| TC008  | Finalizar compra com campos vazios        | Validação de Campo | Aprovado  |
