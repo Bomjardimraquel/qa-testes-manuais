@@ -4,7 +4,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 
 ---
 
-## 🔹 Testes Funcionais
+## Testes Funcionais
 
 ### TC001 – Realizar cadastro de usuário
 - **Pré-condições:** Acesso ao cadastro
@@ -75,7 +75,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 
 ---
 
-## 🔹 Testes de Validação de Campo
+## Testes de Validação de Campo
 
 ### TC007 – Finalizar cadastro com campos vazios
 - **Pré-condições:** Acesso a página de cadastro
@@ -99,7 +99,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
 
 ---
 
-## 🔹 Testes Exploratórios
+## Testes Exploratórios
 
 ### TC009 – Navegação livre pelo site
 - **Pré-condições:** Site disponível
@@ -122,7 +122,7 @@ Este documento reúne todos os casos de teste manuais aplicados ao site [Demobla
      ![Contato com sucesso](../images/tc010-contato-sucesso.jpeg)
 - **Status:** Aprovado
 
-## 🔹 Testes de Usabilidade
+## Testes de Usabilidade
 
 ### TC011 – Testar em dispositivo mobile
 - **Pré-condições:** Acesso ao site
